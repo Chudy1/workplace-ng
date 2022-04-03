@@ -256,6 +256,12 @@ code {
   align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+  .signupForm {
+    display: grid;
+  }
+}
+
 .signupInput,
 .profileEditFormActive {
   margin-bottom: 60px;
