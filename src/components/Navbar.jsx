@@ -4,15 +4,14 @@ import { Link } from "react-router-dom";
 import { BiChevronDown } from "react-icons/bi";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
-import Dropdown from "./Dropdown";
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegCreditCard } from "react-icons/fa";
 import { BiQuestionMark } from "react-icons/bi";
 
 function Navbar() {
-  const [isVisible, setIsVisible] = useState(true);
+  
 
-  const onClick = () => setIsVisible(false);
+  const onClick = () => {};
 
   return (
     <>
