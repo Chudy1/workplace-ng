@@ -27,12 +27,6 @@ code {
   align-items: center;
 }
 
-@media screen and (max-width: 800px) {
-  .signupForms {
-    width: 100%;
-  }
-}
-
 .navright {
   position: relative;
   display: flex;
@@ -149,6 +143,12 @@ code {
     margin: 67px 10px;
     width: 80%;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .signupForms {
+    width: 700px;
   }
 }
 
