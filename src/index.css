@@ -271,6 +271,7 @@ code {
   .signupForm {
     display: grid;
     grid-auto-flow: row;
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 
