@@ -27,6 +27,8 @@ code {
   align-items: center;
 }
 
+
+
 .navright {
   position: relative;
   display: flex;
@@ -279,6 +281,12 @@ code {
   object-fit: cover;
   margin: 3rem auto 1rem;
 }
+
+@media screen and (max-width: 800px) {
+  .categoryImage {
+    height: 70%;
+    width: 70%;
+  }
 
 .pageHeader {
   text-align: center;
