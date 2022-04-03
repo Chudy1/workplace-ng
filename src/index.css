@@ -175,6 +175,12 @@ code {
   font-size: 1.3rem;
 }
 
+@media screen and (max-width: 800px) {
+  .btnSubmit {
+    width: 60%;
+  }
+}
+
 .btnSubmitReset {
   background-color: green;
 }
