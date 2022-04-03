@@ -133,19 +133,19 @@ code {
   border-bottom: #333 solid 1px;
 }
 
+@media (max-width: 800px) {
+  .loginLeft {
+    width: 100%;
+    margin: 30px auto;
+  }
+}
+
 .loginRight {
   margin: 67px 120px 90px 120px;
   border: none;
   font-size: 1.3rem;
 }
 
-@media (max-width: 800px) {
-  .loginDivContainer,
-  .loginLeft {
-    width: 100%;
-    margin: 30px auto;
-  }
-}
 
 @media screen and (max-width: 800px) {
   .loginRight p {
