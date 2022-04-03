@@ -140,7 +140,8 @@ code {
 }
 
 @media (max-width: 800px) {
-  .loginDivContainer {
+  .loginDivContainer,
+  .loginLeft {
     width: 100%;
   }
 }
