@@ -224,8 +224,8 @@ code {
   .loginDiv {
     display: block;
      width: 50%;
-/*     text-align: center;
-    width: 50%; */
+   text-align: center;
+    width: 50%;
   }
 }
 
