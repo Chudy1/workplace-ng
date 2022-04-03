@@ -50,7 +50,7 @@ function Login() {
   };
 
   return (
-    <div>
+    <div className="loginDivContainer">
       <Navbar />
       <div className="loginDiv">
         <div className="childDiv">
