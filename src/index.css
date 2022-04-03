@@ -197,7 +197,7 @@ code {
 
 .btnSubmitSignup {
   width: 500px;
-  margin: 60px auto;
+  margin-left: 100px;
   height: 60px;
   background-color: rgb(240, 140, 10);
 }
