@@ -105,7 +105,7 @@ function Login() {
 
             <div>
               <button type="submit" className="btnSubmit" onClick={onClick}>
-                CREATE ACCOUNT
+                Create Account
               </button>
             </div>
           </form>
