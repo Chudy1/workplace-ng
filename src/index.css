@@ -230,9 +230,8 @@ code {
 @media screen and (max-width: 800px) {
   .loginDiv {
     display: block;
-     width: 50%;
+     width:300px;
    text-align: center;
-    width: 50%;
   }
 }
 
