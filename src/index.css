@@ -136,7 +136,7 @@ code {
 @media (max-width: 800px) {
   .loginLeft {
     width: 100%;
-    margin: 30px 100px;
+    margin: auto;
   }
 }
 
@@ -149,7 +149,7 @@ code {
 
 @media screen and (max-width: 800px) {
   .loginRight {
-    margin: 0;
+    margin: 30px auto;
     width: 100%;
     text-align: center;
   }
