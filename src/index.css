@@ -259,6 +259,7 @@ code {
 @media screen and (max-width: 800px) {
   .signupForm {
     display: grid;
+    grid-auto-flow: row;
   }
 }
 
@@ -270,6 +271,12 @@ code {
   height: 35px;
   border: none;
   border-bottom: #333 solid 1px;
+}
+
+@media screen and (max-width: 800px) {
+  .signupInput {
+    width: 100%;
+  }
 }
 
 .profileEditFormActive {
