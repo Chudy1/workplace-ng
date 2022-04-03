@@ -157,7 +157,7 @@ code {
 
 @media screen and (max-width: 800px) {
   .signupForms {
-    width: 300px;
+    width: 100%;
   }
 }
 
@@ -169,6 +169,12 @@ code {
   font-size: 1.5rem;
   margin: 0 0 60px 350px;
   color: rgb(240, 140, 10);
+}
+
+@media screen and (max-width: 800px) {
+  .signUpHeader{
+    margin: 0 auto;
+  }
 }
 
 .btnSubmit,
