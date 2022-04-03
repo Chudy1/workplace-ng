@@ -6,7 +6,7 @@ import {
   where,
   orderBy,
   getDocs,
-  startAfter,
+
   limit,
 } from "firebase/firestore";
 import { db } from "../firebase.config";
@@ -52,7 +52,7 @@ function Category() {
       }
     };
     fetchListings();
-  }, []);
+  }, [params.categoryType]);
 
   return (
     <div>
