@@ -252,6 +252,7 @@ code {
 .signupForm {
   display: grid;
   grid-template-columns: repeat(2, 200px);
+  gap: 400px;
   justify-content: center;
   align-items: center;
 }
