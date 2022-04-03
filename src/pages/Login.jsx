@@ -57,7 +57,7 @@ function Login() {
           <header className="loginHeader">
             <p>Login</p>
           </header>
-          <form onSubmit={onSubmit}>
+          <form onSubmit={onSubmit} className="signupForms">
             <input
               type="email"
               name="email"
@@ -94,7 +94,7 @@ function Login() {
           <header className="loginHeader">
             <p>Create your Workspace Account</p>
           </header>
-          <form>
+          <form className="signupForms">
             <div className="loginRight">
               <p>
                 Create your Workspace account in just a few clicks! You can
