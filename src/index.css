@@ -256,12 +256,12 @@ code {
   align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .signupForm {
     display: grid;
     grid-auto-flow: row;
   }
-}
+} */
 
 .signupInput,
 .profileEditFormActive {
