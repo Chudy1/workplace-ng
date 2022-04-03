@@ -204,7 +204,12 @@ code {
 
 @media screen and (max-width: 800px) {
   .btnSubmitSignup {
-    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
   }
 }
 
