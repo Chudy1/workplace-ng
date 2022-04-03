@@ -138,6 +138,12 @@ code {
   font-size: 1.3rem;
 }
 
+@media (max-width: 800px) {
+  .loginDivContainer {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .loginRight p {
     margin: 67px auto;
