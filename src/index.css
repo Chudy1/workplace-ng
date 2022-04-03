@@ -148,7 +148,7 @@ code {
 
 @media screen and (max-width: 800px) {
   .signupForms {
-    width: 700px;
+    width: 100%;
   }
 }
 
