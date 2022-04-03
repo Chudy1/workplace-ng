@@ -136,7 +136,7 @@ code {
 @media (max-width: 800px) {
   .loginLeft {
     width: 100%;
-    margin: 30px auto;
+    margin: 30px 100px;
   }
 }
 
