@@ -204,7 +204,7 @@ code {
 
 @media screen and (max-width: 800px) {
   .loginDiv {
-    display: none;
+    display: block;
 /*     text-align: center;
     width: 50%; */
   }
