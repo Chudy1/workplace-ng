@@ -105,7 +105,7 @@ function Login() {
 
             <div>
               <button type="submit" className="btnSubmit" onClick={onClick}>
-                CREATE ACCOUNT VIA EMAIL
+                CREATE ACCOUNT
               </button>
             </div>
           </form>
