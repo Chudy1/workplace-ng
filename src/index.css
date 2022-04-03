@@ -204,7 +204,7 @@ code {
 
 @media screen and (max-width: 800px) {
   .btnSubmitSignup {
-    width: 100px;
+    width: 100%;
   }
 }
 
