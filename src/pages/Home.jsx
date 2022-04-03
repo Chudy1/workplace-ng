@@ -24,6 +24,9 @@ function Home() {
           </div>
         </Link>
       </div>
+<br/>
+              <br/>
+              <br/>
       <h1>This is expected to be seen</h1>
       <Footer />
     </>
