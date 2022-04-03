@@ -203,7 +203,11 @@ code {
 @media screen and (max-width: 800px) {
   .loginDiv {
     display: grid;
-    width: 70%;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
   }
 }
 
@@ -252,9 +256,9 @@ code {
 
 @media screen and (max-width: 800px) {
   .homeCategorycontainer {
-    width: 70%;
+    width: 50%;
     display: grid;
-    height: 60%;
+    height: 50%;
   }
 }
 
