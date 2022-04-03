@@ -71,6 +71,7 @@ code {
   height: 40px;
   border-radius: 5px;
 }
+
 @media screen and (max-width: 800px) {
   .searchBar {
     display: none;
@@ -140,7 +141,7 @@ code {
 
 @media (max-width: 800px) {
   .loginDivContainer {
-    width: 100%;
+    width: 80%;
   }
 }
 
