@@ -141,7 +141,7 @@ code {
 
 @media (max-width: 800px) {
   .loginDivContainer {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -155,7 +155,7 @@ code {
 
 @media screen and (max-width: 800px) {
   .signupForms {
-    width: 400px;
+    width: 300px;
   }
 }
 
