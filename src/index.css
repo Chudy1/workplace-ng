@@ -272,8 +272,8 @@ code {
 }
 
 .categoryImage {
-  height: 390px;
-  width: 680px;
+  height: 300px;
+  width: 600px;
   border-radius: 1.5rem;
   object-fit: cover;
   margin: 3rem auto 1rem;
