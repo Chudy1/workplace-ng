@@ -253,7 +253,7 @@ code {
   display: grid;
   grid-template-columns: repeat(2, 200px);
   gap: 40px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
