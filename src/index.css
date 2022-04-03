@@ -1,13 +1,422 @@
-body {
+/* body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+.navbar {
+  position: relative;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 85px;
+  background-color: #f4f4f4;
+  z-index: 1000;
+  display: flex;
+  flex: 3;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navright {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font: 1.1rem;
+  box-sizing: border-box;
+}
+
+.nobull {
+  display: none;
+  gap: 4px;
+  justify-content: center;
+  list-style-type: none;
+  background: white;
+  width: 190px;
+  height: 213px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+}
+
+.footerbar {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 85px;
+  background-color: #f4f4f4;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+  width: 590px;
+  height: 40px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 800px) {
+  .searchBar {
+    display: none;
+  }
+}
+
+.btn {
+  width: 100px;
+  margin: 1rem;
+  height: 45px;
+  border-radius: 5px;
+  background-color: rgb(240, 140, 10);
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.btnFloat {
+  width: 190px;
+  height: 40px;
+  margin: 20px 35px 0 0;
+  border-radius: 5px;
+  background-color: rgb(240, 140, 10);
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+}
+
+.hidden {
+  display: none;
+  /* position: absolute; */
+}
+
+.navRightLinks,
+.navRightLinksHide {
+  position: relative;
+  margin: 10px;
+}
+@media screen and (max-width: 800px) {
+  .navRightLinksHide {
+    display: none;
+  }
+}
+
+.forgotPasswordLink {
+  cursor: pointer;
+  color: #00cc66;
+  font-weight: 600;
+  text-align: right;
+}
+
+.loginLeft {
+  margin-bottom: 60px;
+  font-size: 1.3rem;
+  width: 480px;
+  height: 35px;
+  border: none;
+  border-bottom: #333 solid 1px;
+}
+
+.loginRight {
+  margin: 67px 120px 90px 120px;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.loginHeader {
+  font-size: 1.3rem;
+}
+
+.signUpHeader {
+  font-size: 1.5rem;
+  margin: 0 0 60px 350px;
+  color: rgb(240, 140, 10);
+}
+
+.btnSubmit,
+.btnSubmitSignup,
+.btnLogout,
+.btnSubmitReset {
+  width: 480px;
+  margin: 1rem;
+  height: 45px;
+  border-radius: 5px;
+  background-color: rgb(240, 140, 10);
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.btnSubmitReset {
+  background-color: green;
+}
+
+.btnSubmitSignup {
+  width: 790px;
+  margin: 0 250px 90px 350px;
+  height: 60px;
+  background-color: rgb(240, 140, 10);
+}
+
+.btnLogout {
+  width: 100px;
+  margin: 40px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: green;
+  font-size: 1rem;
+}
+
+.profileFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profileHeader {
+  font-size: 2rem;
+  color: #469629;
+}
+
+.loginDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .loginDiv {
+    display: grid;
+    width: 70%;
+  }
+}
+
+.childDiv,
+.ResetPasswordContainer {
+  margin-top: 100px;
+}
+
+.ResetPasswordContainer {
+  display: grid;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 200px;
+}
+
+.signupForm {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  justify-content: center;
+  align-items: center;
+}
+
+.signupInput,
+.profileEditFormActive {
+  margin-bottom: 60px;
+  font-size: 1.3rem;
+  width: 380px;
+  height: 35px;
+  border: none;
+  border-bottom: #333 solid 1px;
+}
+
+.profileEditFormActive {
+  background-color: #f4f4f4;
+}
+
+.changePersonalDetails {
+  cursor: pointer;
+  color: green;
+}
+
+.homeCategorycontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+  .homeCategorycontainer {
+    width: 70%;
+    display: grid;
+    height: 60%;
+  }
+}
+
+.homeCategorycontainer a {
+  text-decoration: none;
+  text-align: center;
+  color: green;
+}
+
+.homeCategorycontainer a:hover {
+  color: #333;
+}
+
+.categoryImage {
+  height: 390px;
+  width: 680px;
+  border-radius: 1.5rem;
+  object-fit: cover;
+  margin: 3rem auto 1rem;
+}
+
+.pageHeader {
+  text-align: center;
+  margin-top: 3.4rem;
+  font-weight: 600;
+}
+
+.categoryContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.categoryListingLink {
+  display: flex;
+  text-decoration: none;
+}
+
+.categoryListingImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.categoryListingDiv {
+  margin-left: 0.75rem;
+}
+
+.createListing {
+  height: 40px;
+  width: 40%;
+  background: #f4f4f4;
+  margin: 10px auto 0;
+  border-radius: 1.5rem;
+}
+
+.createListing a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.createListing a h3 {
+  padding-top: 10px;
+}
+
+.formLabel {
+  font-weight: 600;
+  margin-top: 1rem;
+  display: block;
+}
+
+.formInputName {
+  padding: 0.9rem 3rem;
+  background-color: #ffffff;
+  font-weight: 600;
+  border-radius: 1rem;
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInputSmall {
+  width: 2.2rem;
+  height: 1.5rem;
+  border-radius: 5px;
+}
+
+.formInputFile::-webkit-file-upload-button {
+  background-color: #00cc66;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.formButton,
+.formButtonActive {
+  width: 150px;
+  height: 35px;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
+.formButtonActive {
+  background: #00cc66;
+}
+
+.formInputFile {
+  padding: 0.9rem 3rem;
+  background-color: #ffffff;
+  font-weight: 600;
+  border-radius: 1rem;
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primaryButton {
+  cursor: pointer;
+  background: #00cc66;
+  border-radius: 1rem;
+  padding: 0.85rem 2rem;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.25rem;
+  width: 80%;
+  margin: 0 auto;
+  cursor: pointer;
+  background: #00cc66;
+  border-radius: 1rem;
+  padding: 0.85rem 2rem;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.25rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.createListingButton {
+  margin: 5rem auto;
+}
+
+.createListingForm {
+  display: grid;
+  grid-template-columns: repeat();
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .profileDiv {
+    width: 80%;
+  }
 }
