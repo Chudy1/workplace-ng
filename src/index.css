@@ -147,6 +147,7 @@ code {
 @media screen and (max-width: 800px) {
   .loginRight {
     margin: 30px;
+    width: 80%;
   }
 }
 
