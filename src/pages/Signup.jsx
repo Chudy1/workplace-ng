@@ -78,7 +78,7 @@ function Signup() {
                 className="signupInput"
                 onChange={onChange}
               />
-              <div>
+             
                 <input
                   type="text"
                   name="lastName"
@@ -88,7 +88,7 @@ function Signup() {
                   className="signupInput"
                   onChange={onChange}
                 />
-              </div>
+             
               <input
                 type="email"
                 name="email"
@@ -98,7 +98,8 @@ function Signup() {
                 className="signupInput"
                 onChange={onChange}
               />
-              <div>
+                  
+            
                 <input
                   type="password"
                   name="password"
@@ -108,7 +109,7 @@ function Signup() {
                   className="signupInput"
                   onChange={onChange}
                 />
-              </div>
+             
             </div>
 
             <div>
