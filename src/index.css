@@ -155,11 +155,11 @@ code {
   }
 }
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .signupForms {
     width: 300px;
   }
-} */
+}
 
 .loginHeader {
   font-size: 1.3rem;
@@ -261,12 +261,12 @@ code {
   align-items: center;
 }
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .signupForm {
     display: grid;
     grid-auto-flow: row;
   }
-} */
+}
 
 .signupInput,
 .profileEditFormActive {
@@ -278,11 +278,11 @@ code {
   border-bottom: #333 solid 1px;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .signupInput {
     width: 100%;
   }
-}
+} */
 
 .profileEditFormActive {
   background-color: #f4f4f4;
