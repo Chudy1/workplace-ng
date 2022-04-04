@@ -294,9 +294,10 @@ flex-direction: column;
 }
 
  @media screen and (max-width: 800px) {
-  .signupInput {
+  .signupInput, 
+   .profileEditFormActive {
     width: 80%;
-    margin: 10px auto;
+    margin-left: 40px;
   }
 } 
 
