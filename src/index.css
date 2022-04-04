@@ -111,6 +111,7 @@ code {
   position: relative;
   margin: 10px;
 }
+
 @media screen and (max-width: 800px) {
   .navRightLinksHide {
     display: none;
@@ -231,7 +232,8 @@ code {
 }
 
 @media screen and (max-width: 800px) {
-  .profileForm {
+  .profileForm .signupForm{
+     width: 200px;
   margin: 10px auto;
   }
 }
