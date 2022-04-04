@@ -206,8 +206,8 @@ code {
   .btnSubmitSignup {
     display: block;
     text-align: center;
-    width: 80%;
-    margin: 30px;
+    width: 200px;
+    margin-left: 10px;
   }
 }
 
