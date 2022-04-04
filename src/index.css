@@ -382,6 +382,12 @@ flex-direction: column;
   border-radius: 1.5rem;
 }
 
+@media screen and (max-width: 800px) {
+  .createListing {
+    width: 80%;
+  }
+}
+
 .createListing a {
   text-decoration: none;
   text-align: center;
