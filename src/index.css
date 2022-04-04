@@ -272,7 +272,7 @@ code {
 @media screen and (max-width: 800px) {
   .signupForm {
     display: flex;
-flex-direction: row;
+flex-direction: column;
   }
 }
 
