@@ -293,11 +293,12 @@ flex-direction: column;
   border-bottom: #333 solid 1px;
 }
 
-/* @media screen and (max-width: 800px) {
+ @media screen and (max-width: 800px) {
   .signupInput {
-    width: 100%;
+    width: 80%;
+    margin: 10px auto;
   }
-} */
+} 
 
 .profileEditFormActive {
   background-color: #f4f4f4;
