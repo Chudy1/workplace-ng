@@ -78,7 +78,7 @@ function Profile() {
         </p>
       </header>
 
-      <form>
+      <form className="profileForm">
         <div className="signupForm">
           <input
             type="text"
