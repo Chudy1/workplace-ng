@@ -273,7 +273,7 @@ code {
   .signupForm {
     display: flex;
 flex-direction: column;
-    margin: 30px;
+    margin: 40px;
     
   }
 }
