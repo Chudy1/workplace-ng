@@ -230,6 +230,12 @@ code {
   color: #469629;
 }
 
+@media screen and (max-width: 800px) {
+  .profileForm {
+  margin: 10px auto;
+  }
+}
+
 .loginDiv {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
