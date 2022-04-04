@@ -233,7 +233,7 @@ code {
 
 @media screen and (max-width: 800px) {
   .profileForm .signupForm{
-     width: 200px;
+     width: 100%;
   margin: 10px auto;
   }
 }
